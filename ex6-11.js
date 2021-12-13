@@ -13,10 +13,9 @@ function hyoji(){
     //全て表示されたら、空文字に戻す。
     document.timer.moji.value="";}}
 
-function startfnc(){
-  //関数hyoji()を1000ミリ間隔で呼び出す
+//関数hyoji()を1000ミリ間隔で呼び出す    
+function start(){
   setInterval("hyoji()",1000);}
 
-function mes(){
-  alert("3秒経ちました！");
-}
+// function mes(){
+//   alert("3秒経ちました！");}
