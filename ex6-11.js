@@ -17,5 +17,5 @@ function hyoji(){
 function start(){
   setInterval("hyoji()",1000);}
 
-// function mes(){
-//   alert("3秒経ちました！");}
+function mes(){
+   alert("3秒経ちました！");}
